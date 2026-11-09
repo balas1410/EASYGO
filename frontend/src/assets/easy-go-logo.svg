@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="egBlueCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="55%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+    <linearGradient id="egTealAccent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+  </defs>
+  <!-- Friendly human head -->
+  <circle cx="58" cy="24" r="11" fill="url(#egBlueCyan)" />
+  <!-- Seated torso & forward motion posture -->
+  <path d="M54 39 C54 39 68 44 74 52 C77 56 73 61 68 58 L57 50 L55 64 L78 64 C83 64 86 67 87 72 L91 88 C92 92 87 95 83 91 L78 73 L50 73 C45 73 43 69 44 63 L47 43 C48 39 51 38 54 39 Z" fill="url(#egBlueCyan)" />
+  <!-- Backrest & frame -->
+  <path d="M38 44 L38 72 L68 72" stroke="#14B8A6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Large rear wheelchair wheel -->
+  <circle cx="48" cy="84" r="24" stroke="url(#egBlueCyan)" stroke-width="6.5" fill="none" />
+  <circle cx="48" cy="84" r="16" stroke="#22D3EE" stroke-width="2" stroke-dasharray="6 5" fill="none" />
+  <circle cx="48" cy="84" r="5.5" fill="#14B8A6" />
+  <!-- Small front caster wheel -->
+  <circle cx="85" cy="96" r="10" stroke="url(#egTealAccent)" stroke-width="5" fill="none" />
+  <circle cx="85" cy="96" r="3.5" fill="#2563EB" />
+  <!-- Frame connector to front wheel -->
+  <path d="M68 72 L85 96" stroke="#22D3EE" stroke-width="4.5" stroke-linecap="round" />
+</svg>

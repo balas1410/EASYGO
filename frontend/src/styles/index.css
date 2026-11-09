@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --eg-navy: #0B1220;
+  --eg-blue: #2563EB;
+  --eg-cyan: #22D3EE;
+  --eg-teal: #14B8A6;
+  --eg-bg-light: #F5F7FB;
+  --eg-card-light: #FFFFFF;
+  --eg-success: #16A34A;
+  --eg-warning: #F59E0B;
+  --eg-error: #DC2626;
+}
+
+html.font-scale-sm {
+  font-size: 14px;
+}
+html.font-scale-md {
+  font-size: 16px;
+}
+html.font-scale-lg {
+  font-size: 18px;
+}
+html.font-scale-xl {
+  font-size: 20px;
+}
+
+html.high-contrast body {
+  contrast: 1.25;
+}
+
+html.high-contrast .eg-card {
+  border-width: 2px !important;
+  border-color: #22D3EE !important;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+}
